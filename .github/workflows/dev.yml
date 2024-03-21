@@ -38,7 +38,6 @@ jobs:
           terraform plan
           terraform apply --auto-approve
           cd ../
-        continue-on-error: true
 
       - name: Terraform
         env:
